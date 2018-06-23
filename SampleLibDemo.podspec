@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   
   s.name         = "SampleLibDemo"
-  s.version      = "1.0"
+  s.version      = "2.0"
   s.summary      = "A short description of SampleLibDemo."
 
   s.homepage     = "http://emberify.com/"
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   
   s.author             = { "vijay" => "vdmasal@gmail.com" }
  
-  s.source       = { :git => "https://github.com/VijayMasal/SampleLibDemo.git", :tag => "1.0"   }
+  s.source       = { :git => "https://github.com/VijayMasal/SampleLibDemo.git", :tag => "2.0"   }
 
   s.source_files  = "SampleLibDemo", "SampleLibDemo/**/*.{h,m}"
   
