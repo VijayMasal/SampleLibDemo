@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		03BF241B20DE65A5001CED1C /* SampleLibDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BF241920DE65A5001CED1C /* SampleLibDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03BF242320DE65BE001CED1C /* FirstClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BF242120DE65BE001CED1C /* FirstClass.h */; };
+		03BF242420DE65BE001CED1C /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BF242220DE65BE001CED1C /* FirstClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03BF241620DE65A5001CED1C /* SampleLibDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SampleLibDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		03BF241920DE65A5001CED1C /* SampleLibDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleLibDemo.h; sourceTree = "<group>"; };
 		03BF241A20DE65A5001CED1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BF242120DE65BE001CED1C /* FirstClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstClass.h; sourceTree = "<group>"; };
+		03BF242220DE65BE001CED1C /* FirstClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				03BF241920DE65A5001CED1C /* SampleLibDemo.h */,
 				03BF241A20DE65A5001CED1C /* Info.plist */,
+				03BF242120DE65BE001CED1C /* FirstClass.h */,
+				03BF242220DE65BE001CED1C /* FirstClass.m */,
 			);
 			path = SampleLibDemo;
 			sourceTree = "<group>";
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BF242320DE65BE001CED1C /* FirstClass.h in Headers */,
 				03BF241B20DE65A5001CED1C /* SampleLibDemo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03BF242420DE65BE001CED1C /* FirstClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
